@@ -1,8 +1,6 @@
 const calificacion = parseInt(prompt("ingrese una nota de 0 a 10"));
 if (isNaN(calificacion)) {
   alert("introduce un numero valido");
-} else if (calificacion < 0 || calificacion > 10) {
-  alert("Número erróneo");
 } else if (calificacion <= 2) {
   alert("muy deficiente");
 } else if (calificacion <= 4) {
